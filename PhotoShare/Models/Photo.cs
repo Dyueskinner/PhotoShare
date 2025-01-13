@@ -1,8 +1,24 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace PhotoShare.Models
 
 {
-public class PhotoShare
+public class Photo
     {
-        
+        //Primary Key
+        public int PhotoId { get; set; }
+
+        public string Title { get; set; } = string.Empty;
+
+        public string Description { get; set; } = string.Empty;
+
+        [Display(Name =  " Created")]
+        public DateTime CreatedAt { get; set; }
+
+        [Display(Name = "Filename")]
+        public string ImageFilename { get; set; } = string.Empty;
+
+        public bool IsPublic { get; set; } = false;
+
     }
 }
