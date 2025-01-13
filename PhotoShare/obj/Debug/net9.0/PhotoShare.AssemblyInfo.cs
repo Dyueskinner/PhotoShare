@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoShare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5de916f5309975c9e5ce708812a9c8b3fcc0f4e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2281298fe2f60b962af6b0faacbecf14c0562466")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoShare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoShare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
